@@ -1,0 +1,18 @@
+#header
+{
+    padding: 5px;
+}
+
+#header h1 
+{
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#footer
+{
+    padding: 2px;
+    border-top: 1px solid #6699FF;
+    border-top-color: #A0B6FE;
+}
