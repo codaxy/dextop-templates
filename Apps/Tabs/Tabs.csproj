@@ -37,8 +37,8 @@
     <Reference Include="Codaxy.Common">
       <HintPath>..\..\packages\Codaxy.Common.0.5.3\lib\Codaxy.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Codaxy.Dextop">
-      <HintPath>..\..\packages\Codaxy.Dextop.Core.0.7.3\lib\Codaxy.Dextop.dll</HintPath>
+    <Reference Include="Codaxy.Dextop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Codaxy.Dextop.Core.0.7.4\lib\Codaxy.Dextop.dll</HintPath>
     </Reference>
     <Reference Include="EcmaScript.NET.modified">
       <HintPath>..\..\packages\YUICompressor.NET.1.5.0.0\lib\NET35\EcmaScript.NET.modified.dll</HintPath>
@@ -84,7 +84,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\Panel.js" />
     <Content Include="App\UsersPanel.js" />
     <Content Include="App\Session.js" />
     <Content Include="browse.htm" />
@@ -108,6 +107,7 @@
     <Content Include="client\lib\dextop\js\ItemFactory.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-ru.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-sr.js" />
+    <Content Include="client\lib\dextop\js\Panel.js" />
     <Content Include="client\lib\dextop\js\remoting\Proxy.js" />
     <Content Include="client\lib\dextop\js\remoting\Remotable.js" />
     <Content Include="client\lib\dextop\js\Session.js" />
