@@ -34,11 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Codaxy.Common">
-      <HintPath>..\..\packages\Codaxy.Common.0.5.3\lib\Codaxy.Common.dll</HintPath>
+    <Reference Include="Codaxy.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Codaxy.Common.0.5.4\lib\Codaxy.Common.dll</HintPath>
     </Reference>
     <Reference Include="Codaxy.Dextop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Codaxy.Dextop.Core.0.7.4\lib\Codaxy.Dextop.dll</HintPath>
+      <HintPath>..\..\packages\Codaxy.Dextop.Core.0.7.6\lib\Codaxy.Dextop.dll</HintPath>
     </Reference>
     <Reference Include="EcmaScript.NET.modified">
       <HintPath>..\..\packages\YUICompressor.NET.1.5.0.0\lib\NET35\EcmaScript.NET.modified.dll</HintPath>
@@ -92,6 +92,7 @@
     <Content Include="client\js\Ext.ux.desktop.Desktop.patch.js" />
     <Content Include="App\Session.js" />
     <Content Include="client\js\WindowModule.js" />
+    <Content Include="client\lib\dextop\css\dextop-min.css" />
     <Content Include="client\lib\dextop\css\dextop.css" />
     <Content Include="client\lib\dextop\images\icons\add.png" />
     <Content Include="client\lib\dextop\images\icons\delete.png" />
@@ -165,7 +166,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5234</DevelopmentServerPort>
+          <DevelopmentServerPort>1854</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
