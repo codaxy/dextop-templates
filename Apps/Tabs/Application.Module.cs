@@ -31,5 +31,10 @@ namespace Tabs
         {
             RegisterStandardAssemblyPreprocessors("client/js/generated", preprocessors);
         }
+
+        protected override void RegisterLoaders(Dictionary<string, IDextopFileLoader> loaders)
+        {
+
+        }
     }
 }
