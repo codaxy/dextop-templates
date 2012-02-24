@@ -93,6 +93,7 @@
     <Content Include="client\lib\dextop\images\icons\edit.png" />
     <Content Include="client\lib\dextop\images\icons\refresh.gif" />
     <Content Include="client\lib\dextop\images\icons\save.png" />
+    <Content Include="client\lib\dextop\images\logger\sprites.png" />
     <Content Include="client\lib\dextop\js\data\ArrayWriter.js" />
     <Content Include="client\lib\dextop\js\data\GridColumnsFactory.js" />
     <Content Include="client\lib\dextop\js\data\LiveStore.js" />
@@ -109,6 +110,7 @@
     <Content Include="client\lib\dextop\js\locale\dextop-da.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-ru.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-sr.js" />
+    <Content Include="client\lib\dextop\js\Logger.js" />
     <Content Include="client\lib\dextop\js\Panel.js" />
     <Content Include="client\lib\dextop\js\remoting\Proxy.js" />
     <Content Include="client\lib\dextop\js\remoting\Remotable.js" />

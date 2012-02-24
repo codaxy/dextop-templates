@@ -16,3 +16,7 @@
     border-top: 1px solid #6699FF;
     border-top-color: #A0B6FE;
 }
+
+.semi-transparent .x-logger {
+	background: url(images/transparent70.png) transparent;
+}

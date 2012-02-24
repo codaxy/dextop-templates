@@ -3,7 +3,34 @@
 
 	init: function () {
 		this.callParent();
-		// now ready...
+
+		// Now ready...
+		Dextop.Logger.info('Application started.');
+	
+		// Log panel
+		var logger = Ext.create('Dextop.logger.Panel', {
+			cls: 'semi-transparent',
+			docked: true,
+			resizable: true,
+			width: 600,
+			height: 200,
+			minWidth: 600,
+			minHeight: 200
+		});
+
+		// Alternatively:
+		/*	
+		var win = Ext.create('Ext.window.Window', {
+			layout: 'fit',
+			width: 600,
+			height: 300,
+			items: Ext.create('Dextop.logger.Panel', { 
+				border: false
+			})
+		});
+		
+		win.show();
+		*/
 	},
 
 	getModules: function () {
@@ -62,13 +89,13 @@
 			toolConfig: {
 				width: 100,
 				items: [
-				//				    {
-				//				    	text: 'Settings',
-				//				    	iconCls: 'settings',
-				//				    	handler: me.onSettings,
-				//				    	scope: me
-				//				    },
-				//				    '-',
+				//{
+				//	text: 'Settings',
+				// 	iconCls: 'settings',
+				// 	handler: me.onSettings,
+				// 	scope: me
+				//},
+				//'-',
                     {
                     text: 'Logout',
                     iconCls: 'logout',
