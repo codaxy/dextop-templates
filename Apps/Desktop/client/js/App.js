@@ -9,7 +9,7 @@
 	
 		// Log panel
 		var logger = Ext.create('Dextop.logger.Panel', {
-			cls: 'semi-transparent',
+			componentCls: 'semi-transparent',
 			docked: true,
 			resizable: true,
 			width: 600,
