@@ -12,7 +12,11 @@ namespace Desktop
         protected override void RegisterModules()
         {
 #if DEBUG
-            RegisterModule("client/lib/ext", new DextopExtJSModule() { Debug = true });
+            //RegisterModule("client/lib/ext", new DextopExtJSModule() { Debug = true });
+            RegisterModule("http://dextop.codaxy.com/ext/extjs-4.1.1-rc1", new DextopExtJSModule
+            {                
+                UsingExternalResources = true
+            });
 #else
             RegisterModule("client/lib/ext", new DextopExtJSModule());
 #endif

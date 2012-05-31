@@ -34,15 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxMin, Version=4.46.4422.26284, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+    <Reference Include="AjaxMin, Version=4.54.4533.37029, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\AjaxMin.4.46.4422.26284\lib\net20\AjaxMin.dll</HintPath>
+      <HintPath>..\..\packages\AjaxMin.4.54.4533.37029\lib\net20\AjaxMin.dll</HintPath>
     </Reference>
     <Reference Include="Codaxy.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Codaxy.Common.0.5.11\lib\Codaxy.Common.dll</HintPath>
     </Reference>
     <Reference Include="Codaxy.Dextop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Codaxy.Dextop.Core.1.1.0.6\lib\Codaxy.Dextop.dll</HintPath>
+      <HintPath>..\..\packages\Codaxy.Dextop.Core.1.1.0.13\lib\Codaxy.Dextop.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -116,6 +116,7 @@
     <Content Include="client\lib\dextop\js\locale\dextop-da.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-ru.js" />
     <Content Include="client\lib\dextop\js\locale\dextop-sr.js" />
+    <Content Include="client\lib\dextop\js\locale\ext-patch-sr.js" />
     <Content Include="client\lib\dextop\js\Logger.js" />
     <Content Include="client\lib\dextop\js\Panel.js" />
     <Content Include="client\lib\dextop\js\remoting\Proxy.js" />
