@@ -13,14 +13,19 @@ namespace Desktop
         {
 #if DEBUG
             //RegisterModule("client/lib/ext", new DextopExtJSModule() { Debug = true });
-            RegisterModule("http://dextop.codaxy.com/ext/extjs-4.1.1-rc1", new DextopExtJSModule
+            RegisterModule("http://dextop.codaxy.com/ext/extjs-4.1.1-rc2", new DextopExtJSModule
             {                
+                UsingExternalResources = true
+            });
+
+            RegisterModule("http://dextop.codaxy.com/ext/extjs-4.1.1-rc2/examples/desktop", new ExtDesktopModule 
+            {
                 UsingExternalResources = true
             });
 #else
             RegisterModule("client/lib/ext", new DextopExtJSModule());
-#endif
             RegisterModule("client/lib/ext/examples/desktop", new ExtDesktopModule());
+#endif
             RegisterModule("client/lib/dextop", new DextopCoreModule());
             RegisterModule("", new AppModule());            
         }
